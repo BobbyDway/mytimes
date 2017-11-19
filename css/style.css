@@ -28,7 +28,6 @@
 }
 
 .column {
-  border: thin solid black;
   padding: 30px 15px 0px 15px;
   width: 1300px;
   display: inline-flex;
@@ -39,30 +38,33 @@
 }
 
 .column .large {
-  border: thin solid black;
   width: 630px;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 #tuna {
-  border: thin solid black;
   background-image: url(resources/img-story-main.png);
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
+  margin: 0px 0px;
 }
 
 #valley {
-  border: thin solid black;
+  display: flex;
 }
 
 .orca {
-  border: thin solid black;
+  width: 300px;
 }
 
 #earth {
-  border: thin solid black;
+  width: 300px;
   background-image: url(resources/img-story-fall.png);
   height: 300px;
   font-family: Georgia;
@@ -73,11 +75,11 @@
 }
 
 .burger {
-  border: thin solid black;
+  width: 300px;
 }
 
 #cameras {
-  border: thin solid black;
+  width: 300px;
   background-image: url(resources/img-story-cameraman.png);
   height: 300px;
   font-family: Georgia;
@@ -88,16 +90,13 @@
 }
 
 .column .medium {
-  border: thin solid black;
   width: 300px;
 }
 
 .fbi {
-  border: thin solid black;
 }
 
 #cats {
-  border: thin solid black;
   background-image: url(resources/img-story-cat.png);
   height: 300px;
   font-family: Georgia;
@@ -108,18 +107,15 @@
 }
 
 #ny {
-  border: thin solid black;
 }
 
 .column .small {
-  border: thin solid black;
   width: 240px;
 }
 
 #cookie {
-  border: thin solid black;
+  width: 240px;
 }
 
 .bites {
-  border: thin solid black;
 }
