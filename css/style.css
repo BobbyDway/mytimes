@@ -26,3 +26,70 @@
 .nav a {
   color: black;
 }
+
+.column {
+  border: thin solid black;
+  padding: 30px 15px 0px 15px;
+  width: 1300px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.column .large {
+  border: thin solid black;
+  width: 630px;
+}
+
+#tuna {
+  border: thin solid black;
+}
+
+#valley {
+  border: thin solid black;
+}
+
+.orca {
+  border: thin solid black;
+}
+
+#earth {
+  border: thin solid black;
+}
+
+.burger {
+  border: thin solid black;
+}
+
+#cameras {
+  border: thin solid black;
+}
+
+.column .medium {
+  border: thin solid black;
+  width: 300px;
+}
+
+.fbi {
+  border: thin solid black;
+}
+
+#cats {
+  border: thin solid black;
+}
+
+#ny {
+  border: thin solid black;
+}
+
+.column .small {
+  border: thin solid black;
+  width: 240px;
+}
+
+#cookie {
+  border: thin solid black;
+}
+
+.bites {
+  border: thin solid black;
+}
