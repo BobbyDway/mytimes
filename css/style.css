@@ -33,6 +33,9 @@
   width: 1300px;
   display: inline-flex;
   justify-content: space-between;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .column .large {
@@ -42,6 +45,12 @@
 
 #tuna {
   border: thin solid black;
+  background-image: url(resources/img-story-main.png);
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 
 #valley {
@@ -54,6 +63,13 @@
 
 #earth {
   border: thin solid black;
+  background-image: url(resources/img-story-fall.png);
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 .burger {
@@ -62,6 +78,13 @@
 
 #cameras {
   border: thin solid black;
+  background-image: url(resources/img-story-cameraman.png);
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 .column .medium {
@@ -75,6 +98,13 @@
 
 #cats {
   border: thin solid black;
+  background-image: url(resources/img-story-cat.png);
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 #ny {
