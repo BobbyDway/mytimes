@@ -175,3 +175,41 @@
   margin: 0px;
   padding: 15px 0px 15px 15px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 1300px;
+  height: 325px;
+}
+
+.title {
+  border-right: medium solid white;
+  padding: 0px 25px 0px 0px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+nav {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px 0px 0px 25px;
+}
+
+nav a {
+  color: black;
+  padding: 20px 10px;
+}
+
+.end {
+  display: block;
+  padding: 20px 25px;
+}
