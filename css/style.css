@@ -2,6 +2,9 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
   display: flex;
   align-items: center;
   border-bottom: thin solid black;
@@ -28,7 +31,7 @@
 }
 
 .column {
-  padding: 30px 15px 0px 15px;
+  padding: 116px 15px 0px 15px;
   width: 1300px;
   display: inline-flex;
   justify-content: space-between;
@@ -47,12 +50,13 @@
 
 #tuna {
   background-image: url(resources/img-story-main.png);
-  height: 300px;
+  height: 160px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
   margin: 0px 0px;
+  padding: 70px 5px;
 }
 
 #valley {
@@ -66,12 +70,13 @@
 #earth {
   width: 300px;
   background-image: url(resources/img-story-fall.png);
-  height: 300px;
+  height: 100px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
+  padding: 100px 5px;
 }
 
 .burger {
@@ -81,12 +86,13 @@
 #cameras {
   width: 300px;
   background-image: url(resources/img-story-cameraman.png);
-  height: 300px;
+  height: 100px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
+  padding: 100px 5px;
 }
 
 .column .medium {
@@ -98,12 +104,13 @@
 
 #cats {
   background-image: url(resources/img-story-cat.png);
-  height: 300px;
+  height: 100px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
+  padding: 100px 5px;
 }
 
 #ny {
